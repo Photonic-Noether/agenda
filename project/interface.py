@@ -23,3 +23,5 @@ CREAR_CONTACTO_NOMBRE = "Dame el nombre del nuevo contacto ---> "
 CREAR_CONTACTO_TELEFONO = "Dame el telefono del nuevo contacto ---> "
 
 CREAR_CONTACTO_EMAIL = "Dame el email del nuevo contacto ---> "
+
+LEER_CONTACTO = "Informacion del contacto\n----"

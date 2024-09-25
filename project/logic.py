@@ -1,10 +1,13 @@
 import interface
-import database
+from database.contactos import contacto_1  # mal luego cambiar
 from settings import VERSION
 from models import Contacto
 
 def read():
-    pass
+    info = contacto_1  # mal hecho pero de momento lo que hay
+    print(interface.LEER_CONTACTO)
+    for clave, valor in info.items():
+        print(f"{clave} - {valor}")
 
 def create():
     print(interface.CREAR_CONTACTO)
